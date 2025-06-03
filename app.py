@@ -8,8 +8,8 @@ def get_sql_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Rohan@2003",
-        database="rohandb1"
+        password="XYZ",#enter your password
+        database="XYZ"#enter your database name
     )
 def check_not_stu(func):
     @wraps(func)
